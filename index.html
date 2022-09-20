@@ -4,17 +4,87 @@
         <title>Git TEST</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+        font-family: arial;
+        font-size: 18px;
+        line-height: 26px;
+        background-color: cornsilk;
+        }
+
+        .footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            height: 150px;
+            padding-bottom: 30px;
+        }
+
+        footer .addres,
+        footer .navigation{
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: lighter;
+            font-size: small;
+            margin: 20px;
+        }
+
+        footer .addres{
+            float: left;
+            text-align: center;
+        }
+
+        footer .navigation{
+            float: right;
+            text-align: center;
+        }
+
+        .footer .navigation li{
+            display: block;
+            margin-right: 20px;
+            text-decoration: none;
+            line-height: 15px;
+        }
+
+        .footer p{
+            margin-bottom: 0;
+            line-height: 15px;
+        }
+
+        .footer h3{
+            margin-bottom: 10px;
+        }
+
+    </style>
+    
+    
     <body>
         <div class="wrapper">
             <div class="header"></div>
             <div class="content"></div>
             <div class="footer">
-            <section>
-                <h2>Поиск</h2>
-              </section>
-              <section>
-                <h2>Помощь</h2>
-              </section>
+                <footer class="footer">                    
+                    <div class="container">
+                        <div class="addres">
+                            <h3>Краткая информация</h3>
+                            <p>Республика Беларусь, г.Начальный</p>
+                            <P>пр-т Находчивых, дом 124, пом. 15</P>
+                            <p>+375 29 <span>xxx xxx xx</span></p>
+                            <p>info@info.by</p>
+                        </div>
+                        
+                        <div class="navigation">
+                            <h3>Режим работы</h3>
+                            <p>08.30 - 19.00 (Пн - Сб)</p>
+                            <p>10.00 - 16.00 (Вс).</p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     </body>
