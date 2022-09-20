@@ -1,3 +1,27 @@
 * {
-
+padding:5px;
+margin:3px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 18px;
 }
+.img1 {
+    height: 200px;
+    width: 200px;
+}
+li {
+    color:darkorange;
+}
+h1 {
+    background-color: green;
+    color: white;
+    
+}
+
+li {
+    float: left;
+    text-align: center;
+  }
+  .li1 {
+    padding-left: 46px;
+  }
