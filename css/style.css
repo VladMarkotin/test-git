@@ -1,3 +1,86 @@
 * {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    
+}
 
+.content{
+    color: #202122;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 25px;
+}
+
+.reklama img{
+    position: relative;
+    float: left;
+    width: 102.1px;
+    display: flex;
+    align-items: center;
+    top: -14px;
+}
+
+.reklama{
+    background-color:#fff;
+    border-radius: 10px;
+    display: block;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid black;
+    justify-content: center;
+    width: 1050px;
+}
+
+.priziv{
+    background-color: #ffffff;
+    padding-left: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.drug-znach{
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Material{
+    font-style: italic;
+}
+
+.Meridian{
+    height: 250px;
+    float: right;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    top: -75px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Meridian:hover{
+    transform: scale(1.2);
+}
+
+ ul{
+    list-style: none;
+}
+
+.Opisanie-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Opisanie-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Opisanie-3{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
