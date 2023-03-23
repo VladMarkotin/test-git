@@ -5,10 +5,11 @@
 
 header {
     border: 1px solid;
-    display: flex;
 }
 .main-content{
     border: 1px solid;
-    font-family: Tahoma;
-    font-weight: bold;
+}
+
+.footer{
+    border: 1px solid;
 }
