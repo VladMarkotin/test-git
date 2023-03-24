@@ -113,6 +113,7 @@ body {
     grid-template-columns: auto 1fr ;
     grid-column-gap: 50px;
     font-weight: 600;
+    background-color: lemonchiffon;
 }
 
 .todo-title-wrapper {
@@ -150,6 +151,8 @@ body {
     width: 25px;
     background-color: whitesmoke;
     cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .checkbox-wrapper label::before {
