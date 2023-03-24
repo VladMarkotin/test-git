@@ -13,3 +13,55 @@ header {
 .footer{
     border: 1px solid;
 }
+
+.header_row{
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+
+}
+
+.logo img {
+ width: 95px;
+ margin-right: 500px;
+
+}
+
+.header_row a{
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 4px;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.header_row a:hover{
+    color: darkred;
+}
+
+.search {
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
+
+.forms{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.button {
+    margin-left: 70px;
+
+
+}
+.button button {
+    background-color: darkred;
+    padding: 7px 50px;
+    border: dot-dot-dash;
+    color: #ffffff;
+    border-radius: 5px;
+}
