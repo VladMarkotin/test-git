@@ -27,6 +27,7 @@ body {
     height: 100%;
     background-image: url(../img/control.png);
     background-position: right center;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 3;
 }
