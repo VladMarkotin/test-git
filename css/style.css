@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
