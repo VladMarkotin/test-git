@@ -37,4 +37,59 @@ body {
     z-index: 100;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    padding: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    border: 4px solid salmon;
+    padding: 35px 0;
+    border-radius: 15px;
+}
+
+.form > input {
+    width: 200px;
+}
+
+.form > input[type="text"] {
+    padding: 5px 10px;
+    border: 2px solid salmon;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px salmon;
+}
+
+.form > input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: salmon;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+
+.form > button[type="submit"] {
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    transition: all .3s;
+    background-color: salmon;
+    text-shadow: 1px 1px 1px black;
+    color: lemonchiffon;
+}
+
+.form > button[type="submit"]:hover,
+.form > button[type="submit"]:active {
+    background-color: lightpink;
 }
