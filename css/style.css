@@ -3,11 +3,16 @@
     padding: 0;
 }
 
-a {
+.main_menu a,
+button a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: white;
+    display: inline-block;
+    /*width: 100%;*/
+    padding: 5px 5px;
+    text-align: center;
 }
 
 .content_area {
@@ -20,21 +25,26 @@ a {
 
 header {
     display: flex;
-    border: 1px solid black;
+    border-bottom: 1px solid coral;
     background-color: antiquewhite;
+    background-image: url(../img/bgrd.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
     
 
 }
 .logo {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 20px;
     align-items: center;
 
 }
 
 .logo img {
     height: 100px;
-    width: 150px;
+    width: 250px;
     
 }
 
@@ -44,18 +54,21 @@ header {
     vertical-align: middle;
 }
 .main_menu ul {
+    display: flex;
     margin-right: 30px;
+    list-style: none;
+    justify-content: space-around;
 }
 
-.main_menu ul li {
-    list-style: none;
-    display: inline-block;
+.main_menu li {
+    
+    /*flex: 1 1;*/
     margin-right: 10px;
-    background-color: rgb(143, 80, 80);
-    padding: 10px;
+    background-color: rgb(174, 95, 103);
+    padding: 8px;
     border: 1px solid red;
     border-radius: 3px;
-    
+    /*position: relative;*/
 }
 .main_menu ul li:hover {
     transform: scale(1.2);
@@ -64,18 +77,36 @@ header {
 
 }
 
+.main_menu li > ul {
+    display: none;
+}
+
+.main_menu li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
 .form input {
+    background-color: beige;
+    background-image: url(../img/control.png);
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: overlay;
     border: 2px dashed fuchsia;
+    border-radius: 3px;
     width: 150px;
     height: 46px;
     padding-left: 10px;
-    box-shadow: 3px 5px rgb(69, 23, 23);
+    box-shadow: -3px 5px 3px 3px rgb(97, 48, 48);
+    font-size: x-large;
 }
 button {
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     border: none;
+    border-radius: 3px;
     background-color: coral;
+    justify-content: flex-end;
     
 /*.main-content{
     border: 1px solid;
